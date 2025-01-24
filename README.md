@@ -22,13 +22,21 @@ The data is extracted and can be saved in different formats such as JSON or CSV 
 * Well-structured code to make it easy to add more features or scrape other websites.
 
 # Usage
+
 ## 1. Start the Scrapy Spider
+
 To begin scraping data from books.toscrape.com, run the spider using the following command:
+
 ``scrapy crawl bookscraper``
+
 ## 2. Export the Scraped Data
+
 You can export the scraped data to a CSV or JSON file by specifying the output format like so:
+
 ``scrapy crawl bookscraper -o booksdata.json``
+
 This will save the scraped data in JSON format. To save in CSV format, simply change the file extension:
+
 ``scrapy crawl bookscraper -o booksdata.csv``
 
 # Folder Structure
