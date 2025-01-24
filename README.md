@@ -24,16 +24,17 @@ The data is extracted and can be saved in different formats such as JSON or CSV 
 # Usage
 ## 1. Start the Scrapy Spider
 To begin scraping data from books.toscrape.com, run the spider using the following command:
-**scrapy crawl bookscraper**
+``scrapy crawl bookscraper``
 ## 2. Export the Scraped Data
 You can export the scraped data to a CSV or JSON file by specifying the output format like so:
-**scrapy crawl bookscraper -o booksdata.json**
+``scrapy crawl bookscraper -o booksdata.json``
 This will save the scraped data in JSON format. To save in CSV format, simply change the file extension:
-**scrapy crawl bookscraper -o booksdata.csv**
+``scrapy crawl bookscraper -o booksdata.csv``
 
 # Folder Structure
 The project folder is structured as follows:
-```Scrapy-BookScraper/            # Root repository folder
+```
+Scrapy-BookScraper/            # Root repository folder
 ├── README.md                  # Project overview and instructions
 ├── bookscraper/               # Main folder for the Scrapy project
 │   ├── scrapy.cfg             # Scrapy configuration file
@@ -44,4 +45,3 @@ The project folder is structured as follows:
 │       ├── pipelines.py       # Optional: Data processing pipeline
 │       ├── settings.py        # Scrapy project settings
 │       └── __init__.py        # Required for Python package structure (if applicable)
-└── requirements.txt           # List of dependencies```
