@@ -34,14 +34,24 @@ This will save the scraped data in JSON format. To save in CSV format, simply ch
 # Folder Structure
 The project folder is structured as follows:
 Scrapy-BookScraper/            # Root repository folder
+
 ├── README.md                  # Project overview and instructions
+
 ├── bookscraper/               # Main folder for the Scrapy project
+
 │   ├── scrapy.cfg             # Scrapy configuration file
+
 │   └── bookscraper/           # Inner folder containing the Scrapy project files
+
 │       ├── spiders/           # Scrapy spider scripts
+
 │       │   └── books_spider.py # Spider to scrape book data from books.toscrape.com
+
 │       ├── items.py           # Item definitions (e.g., book title, price, etc.)
+
 │       ├── pipelines.py       # Optional: Data processing pipeline
+
 │       ├── settings.py        # Scrapy project settings
+
 │_      └── __init__.py        # Required for Python package structure (if applicable)
 
